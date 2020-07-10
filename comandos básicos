@@ -1,0 +1,6 @@
+### COLOCAR NO PATH PARA RECONHECER O DENO COMO COMANDO INTERNO #######
+export DENO_INSTALL="/home/victor/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+
+##### EXECUTAR ARQUIVO DANDO PERMISSÃO ######
+deno run --allow-all nome_arquivo.ts
